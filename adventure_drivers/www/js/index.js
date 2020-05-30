@@ -62,7 +62,7 @@ var app = {
 
         this.receivedEvent('deviceready');
 
- var inAppBrowserbRef = cordova.InAppBrowser.open('https://play.famobi.com/adventure-drivers', '_self', 'location=no,toolbar=no,zoom=no,clearcache=yes,hidespinner=no,beforeload=yes');
+ var inAppBrowserbRef = cordova.InAppBrowser.open('https://games.cdn.famobi.com/html5games/a/adventure-drivers/v040/?fg_domain=play.famobi.com&fg_aid=A1000-1&fg_uid=7adef9f1-9ddd-437a-b5ee-196da61ba5c7&fg_pid=4638e320-4444-4514-81c4-d80a8c662371&fg_beat=660&original_ref=https%3A%2F%2Fhtml5games.com%2FGame%2FAdventure-Drivers%2F7adef9f1-9ddd-437a-b5ee-196da61ba5c7', '_self', 'location=no,toolbar=no,zoom=no,clearcache=yes,hidespinner=no,beforeload=yes');
 
 /*
 inAppBrowserbRef.addEventListener('loadstart', function() {
